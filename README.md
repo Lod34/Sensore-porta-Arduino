@@ -172,9 +172,9 @@ Una volta costruito il nostro circuito procediamo al codice:
 
       Serial.println(distanza + "cm");
 
-      if(distanza > 5) 
-      {
-        for (i2=0;i2<20;i2++) {
+      if(distanza > 5)                      //Se il sensore ad ultrasuoni rileva uno spostamento,
+      {                                     //fa lampeggiare il led rosso e attiva il buzzer
+        for (i2=0;i2<20;i2++) {         
           digitalWrite(LED_R, HIGH);
           for(i=0;i<500;i++) {
             tone(11, T);
