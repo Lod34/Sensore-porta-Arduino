@@ -32,8 +32,8 @@ Una volta costruito il nostro circuito procediamo al codice:
 
     //Sensore ad infrarossi
     int IR = 6; 
-    IRrecv irrecv(IR);     // create instance of 'irrecv'
-    decode_results IR_r;      // create instance of 'decode_results'
+    IRrecv irrecv(IR);     
+    decode_results IR_r;      
 
     //Led RGB
 
