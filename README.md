@@ -198,4 +198,10 @@ Una volta costruito il nostro circuito procediamo al codice:
 
 
     }/* --( FINE LOOP )-- */
+    
+    
+**NOTA**: Per utilizzare questo codice bisogna usufruire della libreria **IRremote.h**, utilizzando la versione specifica **2.2.3**, che, purtroppo entra in conflitto con il nostro **buzzer passivo**. Per risolvere tale conveniente ci basterà editare un file di testo. La guida [qui](https://forum.arduino.cc/t/irremote-library-conflicts-with-tone-function/118426/6).
+
+
+
 
