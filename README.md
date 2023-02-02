@@ -119,7 +119,8 @@ Una volta costruito il nostro circuito procediamo al codice:
     }/*--( FINE SETUP )---*/
 
 
-    void loop()   /*----( INIZIO LOOP )----*/
+    void loop()   
+    /*----( INIZIO LOOP )----*/
     {
 
     if (irrecv.decode (&IR_r)) // L'IR ha ricevuto un segnale?
