@@ -1,7 +1,7 @@
 # Sensore porta 2.0 | Arduino
 ![image](https://user-images.githubusercontent.com/117084283/216158204-8aa677cf-3be8-47aa-aecf-a785b7ce4140.png)
 
-Rispetto alla vecchia versione, l'unica differenza è che al posto di utilizzare il pulsante come accensione del sensore, utilizzeremo un sensore a infrarossi.
+Rispetto alla vecchia versione [1.0]?plain=1#L212), l'unica differenza è che al posto di utilizzare il pulsante come accensione del sensore, utilizzeremo un sensore a infrarossi.
 
 ## Questa volta ci servirà:
 - La nostra scheda **Arduino Uno**
