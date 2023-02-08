@@ -23,7 +23,7 @@ Una volta costruito il nostro circuito procediamo al codice:
 
     
 
-    #include "IRremote.h" 
+    #include "IRremote.h" //versione 2.2.3
 
 
     /*-----( DICHIARAZIONI )-----*/
